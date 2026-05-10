@@ -1,0 +1,32 @@
+[project]
+name = "image-semantic-search"
+version = "0.1.0"
+description = "A Python library for semantic search and retrieval of images using CLIP embeddings and vector databases"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-core",
+    "langchain-groq",
+    "langchain",
+    "python-dotenv",
+    "langchain-experimental",
+    "torch",
+    "uvicorn",
+    "fastapi",
+    "watchdog",
+    "notebook",
+    "langchain-astradb>=0.6,<0.7",
+    "langchain-huggingface",
+    "huggingface-hub",
+    "pillow",
+    "open_clip_torch",
+    "qdrant-client",
+    "requests",
+    "streamlit",
+    "coloredlogs",
+    "pydantic"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
