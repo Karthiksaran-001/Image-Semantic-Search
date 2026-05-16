@@ -18,4 +18,5 @@ requests
 streamlit
 coloredlogs
 pydantic
+langchain-qdrant
 
